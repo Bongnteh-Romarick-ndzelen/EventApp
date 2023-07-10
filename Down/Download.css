@@ -1,0 +1,51 @@
+
+#down{
+    color:red;
+    font-size: 26px;
+}
+.down{
+    color:red;
+}
+.big-div{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-left: 20%;
+    margin-top: 80px;
+}
+.smalldiv{
+    border: solid 5px;
+    border-radius: 20px;
+    margin-left: 50px;
+    text-align: center;
+    height: 300px;
+    width: 290px;
+    background-color: black;
+    color: white;
+   
+}
+.all{
+    background-color: rgb(240, 238, 132)
+}
+#up{
+    color: red;
+    font-size: 20px;
+    margin-left: 900px;
+    margin-bottom: 0px;
+}
+.up{
+    color: red;
+   
+}
+#An{
+    font-size: 24px;
+}
+#div{
+   width: 150px;
+   height: 50px;
+   background-color: aqua;
+margin: 50px;
+}
+#sup{
+    font-size: 24px;
+}
