@@ -1842,3 +1842,120 @@ h2.blog-head {
 .section-header h4 {
   margin: 0;
 }
+/*LOGIN*/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.login-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+h2 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 3px;
+  text-align: center;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .login-container {
+    max-width: 100%;
+  }
+}
+.login-container {
+  background-color: rgb(222, 222, 12);
+}
+
+.header-01 {
+  background-color: #d90a0a;
+  color: white;
+  padding: 30px;
+}
+
+.nav-01 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ul-01 {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.li-01 {
+  margin-left: 20px;
+}
+
+.li-01 a {
+  color: white;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+  .nav-01 {
+    flex-direction: column;
+  }
+
+  .ul-01 {
+    margin-top: 20px;
+    justify-content: center;
+  }
+
+  .li-01 {
+    margin: 0;
+  }
+}
+.centered-placeholder::-webkit-input-placeholder {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.centered-placeholder:-moz-placeholder {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.centered-placeholder::-moz-placeholder {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.centered-placeholder:-ms-input-placeholder {
+  text-align: center;
+  font-size: 1.2rem;
+}
